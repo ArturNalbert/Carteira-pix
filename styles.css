@@ -1,0 +1,105 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.wallet-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+#logo {
+    max-width: 150px;  /* Ajuste o tamanho da logo conforme necessário */
+    max-height: 50px;
+}
+
+h1 {
+    color: #27ae60; /* Cor verde para o título */
+}
+
+.saldo {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #27ae60;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 14px;
+    color: #34495e;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #27ae60;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2ecc71;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+
+#message.error {
+    color: #e74c3c;
+}
+
+#message.success {
+    color: #2ecc71;
+}
+
+#comprovante {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #ecf7ec;
+    border: 1px solid #27ae60;
+    border-radius: 8px;
+    font-size: 14px;
+    display: none; /* Inicialmente o comprovante está oculto */
+}
+
+#comprovante h3 {
+    margin-top: 0;
+    color: #27ae60;
+}
+
+#comprovante p {
+    margin: 5px 0;
+}

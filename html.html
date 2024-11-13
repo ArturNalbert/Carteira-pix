@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carteira PIX</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="wallet-container">
+    <!-- Logo do Banco -->
+    <div class="logo">
+        <img src="logo.png" alt="Logo do Banco" id="logo" />
+    </div>
+
+    <h1>Carteira PIX</h1>
+
+    <div class="saldo">
+        <strong>Saldo Disponível:</strong> <span id="saldo">R$ 1000,00</span>
+    </div>
+
+    <div class="form-group">
+        <label for="name">Nome do Destinatário:</label>
+        <input type="text" id="name" placeholder="Nome do destinatário" />
+    </div>
+
+    <div class="form-group">
+        <label for="key">Chave PIX (e-mail, CPF ou celular):</label>
+        <input type="text" id="key" placeholder="Insira a chave PIX do destinatário" />
+    </div>
+
+    <div class="form-group">
+        <label for="amount">Valor a transferir:</label>
+        <input type="number" id="amount" placeholder="Valor (R$)" />
+    </div>
+
+    <button id="sendButton">Transferir</button>
+
+    <div id="message"></div>
+
+    <div id="comprovante"></div> <!-- Comprovante de Transferência -->
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
